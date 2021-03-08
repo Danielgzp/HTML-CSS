@@ -1,0 +1,152 @@
+Hola como van ??
+Les comparto este PDF con todas las Etiquetas de HTML5 ??
+https://i.emezeta.com/weblog/html5-cheatsheet/html5-cheatsheet-2019.pdf
+
+<!DOCTYPE html>
+<!--Le decimos al navegador que este archivo es del tipo html:5-->
+
+<html lang="es">
+  <!--Es la etiqueta "padre" donde vivirá nuestro proyecto. El atributo lang establece el idioma del sitio web. Debemos usarlo para que el navegador pueda traducir nuestra página-->
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <!--Este atributo nos ayuda a la hora de incluir caracteres especiales y emojis en nuestro proyecto-->
+
+    <meta name="description" content="Esta página te mostrará fotos de gatos" />
+    <!--Muestra una descripción de nuestro sitio en los buscadores-->
+
+¡Nota importante! La longitud de la meta descripcion no debe de superar los 155 caracteres.
+
+    <meta name="robots" content="index,follow" />
+    <!--Le dice a los robots de los navegadores que rastreen nuestra página y la muestran en las búsquedas-->
+
+    <title>Mi página</title>
+    <!--Título de nuestra página, no confundir con los H1-H6. Este titulo es el que ves en la pestaña del navegador-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Nos ayuda a trabajar en proyectos reponsive-->
+
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Linkea/Enlaza archivos de estilos u otros archivos que necesitemos en nuestro proyecto-->
+
+  </head>
+
+body es la parte visible de nuestro website ??. Es muy importante usar HTML semántico y no llenar todo de <div> para que nuestro sitio sea mejor interpretado por el navegador y por lo tanto más accesible.
+
+  <body>
+
+    <header> <!--Sección superior de nuestro website--> 
+
+      <nav></nav> <!--Sección de navegación de nuestro website, siempre dentro del header-->
+
+    </header>
+
+    <main> <!--Main es el contenido central de nuestro website, "la parte del medio"-->
+
+      <section> 
+        <!--Nuestro website puede estar divido por secciones, por ejemplo platzi tiene 3: El navegador de cursos y rutas, el feed y nuestras rutas de aprendizaje-->
+
+        <article>
+          <!--Contenido independiente de la página. Es reutilizable-->
+        </article>
+
+      </section>
+
+      <ul> <!--Lista desordenada: Sin numerar-->
+
+        <li><!--Item List. Elementos de la lista--></li>
+
+      </ul>
+
+      <ol></ol> <!--Lista ordenada: Numerada-->
+      
+    </main>
+
+    <footer> <!--Sección final de nuestro website-->
+
+    </footer>
+
+    <p>Soy un texto</p> <!--Párrafo, texto-->
+
+    <h1>Soy un titulo</h1> 
+    <!--Títulos, muestran el texto más grande y con negrilla. Existen desde el h1 al h6-->
+
+    <a href="#">Soy un link</a>
+    <!--Enlaces/links que nos permitirán movernos entre páginas.-->
+
+  </body>
+
+Les recomiendo 2 páginas muy útiles para conseguir imágenes de muy buena calidad, en diferentes formatos.
+.
+Para Iconos: FlatIcon
+Ahí van a encontrar miles de iconos de muy buena calidad y de lo que sea que busquen, siendo estos, gratuitos de uso. Además de que se pueden descargar en png, con diferentes resoluciones, o directamente en svg. También puedes editar los iconos directamente.
+.
+Para imágenes: Freepik
+Aquí hay, tanto iconos, como ilustraciones completas, de mucha calidad, que se pueden descargar en png o psd. Igualmente son de uso libre.
+
+Tamaño máximo recomendado para una imágen:
+
+70kb
+.
+Herramientas para optimizar imágenes:
+
+Tiny PNG: Comprime el tamaño de una imagen, para hacerla más ligera.
+
+Verefix: Elimina los metadatos de una imagen, para reducir su tamaño.
+
+formularios
+
+input type=hidden
+input type=text
+input type=search
+input type=tel
+input type=url
+input type=email
+input type=password
+input type=date
+input type=month
+input type=week
+input type=time
+input type=datetime-local
+input type=number
+input type=range
+input type=color
+input type=checkbox
+input type=radio
+input type=file
+input type=submit
+input type=image
+input type=reset
+input type=button
+
+Elementos de un formulario
+form - Defines an interactive form with controls.
+label - Defines a label for a form control.
+input - Defines an interactive control within a web form.
+span - Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea.
+
+costumbrense de una vez a escribir en el input el atributo nombre, es decir:
+
+<label for="nombre">
+	<span>¿Cúal es tu nombre?</span>
+	<input type="text" id="nombre" name="nombre">
+</label>
+
+Me lo agradecerán cuando pasen a backend.
+Esta etiqueta es un identificador que le permite al lenguaje de backend identificar como llega la información, es decir:
+
+A mi me funcionó para comentar con:
+Ctrl + /
+
+Vs Code
+
+-Prettier
+-Live server
+-Path intelssence
+-Auto rename tag
+-Bracket Pair Colorizer
+-theme dracual official
+-Material icon theme
+-Live reload
+
