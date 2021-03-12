@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<htm lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Esta pagina te mostrara fotos de gatos" />
+        <meta name="robots" content="index,follow">
+        <title>Es mi pagina</title>
+        <meta name="viewport" content="width=device-width, inictial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css"> 
+    </head>
+    <body>
+        <header>
+            <nav>
+                <p id="header-nav__titulo">Lista del mercado</p>
+            </nav>
+        </header>
+        <main id="main">
+            
+            <section>
+                <video controls='preload'>
+                    <source src=""> 
+                </video>
+            </section>
+
+            <ul id="main-lista">
+                <li id="main-lista__frutas">Frutas</li>
+                <ol id="main-lista__frutas_frutitas">
+                    <!-- <li id="main-lista__frutas_frutitas_platanos">Platanos</li> -->
+                    <figure id="figure">
+                        <img src="./images/platanos.jpg" alt="Imagen e unos platanos">
+                        <figcaption>Platanos</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./images/guayabas.jpg" alt="">
+                        <figcaption>Guayabas</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="./images/parchitas.jpg"  alt="">
+                        <figcaption>Parchitas</figcaption>
+                    </figure>
+                </ol> 
+            
+                <li id="main-lista__carnes">Carnes</li>
+                <ol>
+                    <figure>
+                    <img src="./images/bisteck.jpg" alt="" >
+                    <figcaption>Bisteck</figcaption>
+                    </figure>
+                    
+                    <figure>
+                    <img src="./images/milanesa.jpg" alt="">
+                    <figcaption>Milanesa</figcaption>
+                    </figure>
+
+                    <figure>
+                    <img src="./images/carne_molida.jpg" alt="">
+                    <figcaption>Carne molida</figcaption>
+                    </figure>
+                </ol>  
+                <li id="main-lista__viveres">Viveres</li>
+                <ol>
+                    <figure>
+                    <img src="./images/harina.jpg" alt="">
+                    <figcaption>Carne molida</figcaption>
+                    </figure>
+
+                    <figure>
+                    <img src="./images/arroz.jpg" alt="">
+                    <figcaption>Carne molida</figcaption>
+                    </figure>
+
+                    <figure>
+                    <img src="./images/pasta.jpg" alt="">
+                    <figcaption><a href="https://www.cocinacaserayfacil.net/recetas-de-pasta/" target="_blanck">Pasta</a></figcaption>
+                    </figure>
+                </ol>  
+            </ul> 
+            <form action="">
+                <label for="producto">
+                    <span>Seleccione el producto que busca</span>
+                    <input type="text" id="producto" placeholder="Nombre del producto" required>
+                </label>
+                <label for="cantidad">
+                    <span>   Ingrese la cantidad</span>
+                    <input type="number" id="cantidad" placeholder="0" required>
+                </label>
+            </form>
+
+            <input list="productos">
+            <span>Seleccione el producto</span>
+            <datalist id="productos">
+                <option value="Queso"></option>
+                <option value="Pollo"></option>
+                <option value="Carne"></option>
+                <option value="Harina"></option>
+                <option value="Arroz"></option>
+                <option value="Pasta"></option>
+            </datalist>
+
+        </main>
+        <footer>
+
+        </footer>
+    </body>
+
+    <p>Soy un texto</p>
+    <h1>Soy un titulo</h1>
+    <h2>Soy otro titulo</h2>
+    <h3>Soy otro titulo mas</h3>
+    <a href="#">Soy un link</a>
+    <a href="">Soy otro link</a>
+</html>

@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.5rem black solid;
+    display: flex;
+    flex-wrap: wrap;
+    /* hay diferentes formas de trabajar el flex y nos da muchas opciones */
+}
+.box{
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1{
+    background-color: burlywood;
+}
+.box2{
+    background-color: royalblue;
+}
+.box3{
+    background-color: tan;
+}
+.box4{
+    background-color: indigo;
+}
+.box5{
+    background-color: palevioletred;
+}
+.box6{
+    background-color: navy;
+}

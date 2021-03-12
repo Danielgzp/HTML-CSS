@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    font-size: 75px;
+}
+
+/* para demostrar que rango que tiene segun la especifidad en este caso toma como primordial 
+el tamano de la fuente de la clase .title y el diseno de la fuente del id page-title */
+
+
+.title{
+
+    font-size: 22px;
+    font-family: monospace;
+}
+
+.nav{
+
+    margin-top: 20px;
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+.nav li{
+
+    display: inline-block;
+    margin: -10px;
+    
+}
+
+.nav a{ 
+    /* a todas las etiquetas a que tengan un id main-nav */
+
+    color: black;
+    background-color: rgb(25, 226, 25);
+    margin: 5px;
+    border-radius: 5px;
+    border: black ridge 4px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.nav a::after{
+    content: '--';
+}
+
+.nav a:hover{
+
+    background-color: red;
+}
+
+.nav .blog{
+    background-color: blueviolet;
+} 
+/* no se aplica porque en cambio en uan inline styles(estilo embebido)
+es mas importante */

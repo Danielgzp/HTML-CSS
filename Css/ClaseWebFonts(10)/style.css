@@ -1,0 +1,8 @@
+/* no es buena practicar importar las fuentes en css 
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+*/
+
+p{
+   font-family: 'Akaya Telivigala', cursive;;
+}

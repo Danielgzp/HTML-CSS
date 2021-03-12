@@ -1,0 +1,40 @@
+:root{
+    --primary-color: blue;
+    --secundary-color: aqua;
+    --header-size: 4rem;
+    --font: 1.8rem
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    background-color: aqua;
+    width: 100vw;
+    height: 80vh;
+    font-size: var(--font);
+}
+header{
+    background-color:var(--primary-color);
+    height: 10vh;
+    width: 100vw;
+}
+footer{
+    background-color: blue;
+    height: 10vh;
+    width: 100vw;
+}
+aside{
+    background-color: cornflowerblue;
+    width: 20vw;
+    height: 80vh;
+}
+
+h1{
+    font-size: var(--font);
+    color: var(--terciary-color, red);
+}

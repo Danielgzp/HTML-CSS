@@ -1,0 +1,24 @@
+h1 + p{
+
+    color: darkmagenta;
+}
+
+/* esto solo aplica a los parrafo que tenga de descendiente, es decir, al lado,
+a una etiqueta h1 */
+
+h3 ~ p{
+
+    color: darkturquoise;
+}
+
+div > p1{
+    color: red;
+}
+
+div p2{
+    color: burlywood;
+}
+
+
+/* esto solo aplica a los parrafo que tenga de descendiente, es decir, al lado,
+a una etiqueta h2 */

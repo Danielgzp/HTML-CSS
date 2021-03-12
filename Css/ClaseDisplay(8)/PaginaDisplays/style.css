@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .section{
+    width: 100vw;
+    min-height: 250px;
+    background-color: wheat;
+    padding:25px 10px;
+  }
+  
+  .container{
+    background-color: white;
+    margin: 8px;
+    margin-bottom:14px;
+    display: flex;
+    box-shadow: 0px 2px 3px black;
+  }
+  .container > p{
+    border: 1px solid red;
+    background-color: whitesmoke;
+  }
+  .box{
+    width: 70px;
+    height: 70px;
+  }
+  
+  
+  .box1{
+    background-color: salmon;
+  }
+  .box2 {
+    background-color: deeppink;
+  }
+  .box3 {
+    background-color: turquoise;
+  }
+  .box4 {
+    background-color: yellowgreen;
+    color:black;
+  }
+  .box5 {
+    background-color: crimson;
+  }
+  .box6 {
+    background-color: aquamarine;
+  }
+  
+  h4{
+    text-align: center;
+    display: revert;
+    border: 1px solid black;
+    color: white;
+    background-color: black;
+  }
+  .nota{
+    font-size: 0.8em;
+  }
+  
+  .column{
+    flex-direction: column;
+  }
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+  .column-reverse {
+    flex-direction: column-reverse;
+  }
+   
+  .wrap{
+    flex-wrap: wrap;
+  }
+  .wrap-reverse{
+    flex-wrap: wrap-reverse;
+  }
+  
+  .justify-content-center{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .justify-content-flex-end{
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .justify-content-flex-start {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .justify-content-space-around{
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .justify-content-space-evenly {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .justify-content-space-between {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .align-items .container{
+    min-height: 220px;
+  }
+  .items-center{
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .items-start {
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  .items-end {
+    flex-wrap: wrap;
+    align-items: flex-end;
+  }

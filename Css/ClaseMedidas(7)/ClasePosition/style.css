@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.parent{
+
+    border: black 4px ridge;
+    margin: 2px;
+    display: inline-block;
+}
+
+.box{
+    display: inline-flex;
+    background-color: darksalmon;
+    width: 200px;
+    height: 150px;
+    border: red 5px dashed;
+    padding: 4px;
+}
+
+#two{
+    background-color: green;
+    position: absolute;
+    bottom: 15px;
+}
