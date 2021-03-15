@@ -6,11 +6,14 @@
 
 .header{
     background-color: palevioletred;
-    height: 12.5vh;
+    height: 15vh;
     border: rgb(243, 180, 9) 5px solid;
-
 }
 
+.header-nav__figure{
+    background-color: blueviolet;
+    height: 6vh;
+}
 #figure-image{
     display: inline-flex;
 }
@@ -21,8 +24,6 @@ figcaption{
 
 .header-figure{
 
-    height: 10vh;
-    width: 23vw;
 }
 
 .header-figure h1{
@@ -40,12 +41,6 @@ figcaption{
 .header-figure, .nav, .nav-lista li{
     display: inline-block;
 } 
-
-.nav{
-    position: absolute;
-    height: 10vh;
-    right: 0;
-}
 
 .nav-lista{
    
